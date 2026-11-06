@@ -1,22 +1,15 @@
 {
-  "name": "Баланс — управление финансами",
-  "short_name": "Баланс",
-  "start_url": "./index.html",
+  "name": "Balance — личные финансы",
+  "short_name": "Balance",
+  "description": "Персональный менеджер личных финансов",
+  "lang": "ru",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0b100e",
+  "background_color": "#090d0b",
   "theme_color": "#0b100e",
-  "description": "Личный менеджер доходов, расходов, бюджетов, кредитов и накоплений.",
   "icons": [
-    {
-      "src": "./icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png"}
   ]
 }
